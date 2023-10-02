@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Archivo', sans-serif;
+    background-color: #000;
+}
+
+/* Start header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 1em;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    width: 25ch;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header_form {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.submit {
+    font-size: 24px;
+    padding: 0.6em 1.2em;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.sign {
+    font-size: 24px;
+    padding: 0.6em 1.6em;
+    border-radius: 8px;
+    border: none;
+    background-color: #4C5FD5;
+    color: #fff;
+}
+/* End header */
+
+/* Start search section */
+
+.search_container {
+    background-color: #dadbf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+}
+
+.search_container h1 {
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -4px;
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.search_place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input {
+    font-size: 32px;
+    line-height: 24px;
+    color: #000;
+}
+
+#query {
+    padding: 1.3rem;
+    box-sizing: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+input[type="search"] {
+    font-family: 'Archivo', sans-serif;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 44ch;
+    margin-top: 0.5em;
+}
+
+.search_container #query {
+    padding-left: 1rem;
+}
+
+.search_container img{
+    transform: translateY(100%) translateX(-155%);
+    position: absolute;
+    width: 40px;
+}
+
+/* End search section */
+
+/* Cards section start */
+.card_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90em;
+    background-color: #fff;
+}
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 25px;
+    width: 155ch;
+}
+
+.card_container h4,
+.card_container p {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.card_container p {
+    line-height: 36px;
+}
+
+.card_container a {
+    font-size: 22px;
+    color :#4C5FD5;
+}
+
+.card_1 {
+    display: flex;
+    width: 47ch;
+    max-width: 70ch;
+    margin-bottom: 5.2em;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+.icon img{
+    max-height: 100px;
+    margin-right: 12px;
+}
+
+.card_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card_1.manage {
+    margin-top: -6.4em;
+}
+
+.card_1.support {
+    margin-top: -4.7em;
+}
+/* Cards section end */
+
+/* Footer section start */
+.footer {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    padding: 4em 0 4.8em 6.5em;
+    margin-top: 2em;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 0.8em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+
+.list-media {
+    display: flex;
+    justify-content: space-between;
+    width: 120ch;
+}
+
+.list-abstract {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 3;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    gap: 8px;
+}
+
+.contact h4 {
+    font-size: 1.1rem;
+}
+
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-top: 12em;
+    justify-content: center;
+    width: 30ch;
+}
+
+.copyright img {
+    flex-shrink: 0;
+    width: 15%;
+    margin-bottom: 1em;
+}
+
+.copyright p{
+    font-size: 20px;
+    line-height: 35px;
+}
+/* Footer section end */
