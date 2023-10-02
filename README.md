@@ -1,6 +1,10 @@
 ## Abstract_clone
 
-It's just a simple project with cloning a website. Just a template of a website.
+It's just a simple project with cloning a website. Just a template of a website without a much functionality.
+
+**Original Website**:https://help.abstract.com/hc/en-us
+
+**Link to Project**: https://defalterxd.github.io/Abstract_clone/
 
 ![alt text](./img/Review.png)
 
