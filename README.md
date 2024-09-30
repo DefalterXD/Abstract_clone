@@ -16,7 +16,7 @@ Thus making all alignment of elements painfull process. But overall this is soli
 
 ## Lesson Learned:
 
-While working on this project I learned:
+After that project I learned:
 <ul>
 <li>How to make a search bar</li>
 <li>How to use flex technology for alignment</li>
