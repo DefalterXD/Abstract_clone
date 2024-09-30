@@ -11,7 +11,7 @@ It's just a simple project with a template website without a much functionality.
 **Tech used:** HTML, CSS
 
 I made this website with HTML and CSS using flexbox. <br>
-This project was made fairly straight forward with the misalignment of my previous monitor aspect ration and standard [5:4 and 16:9]. <br>
+This project was made fairly straight forward with the misalignment of my previous monitor aspect ratio and standard ratio[5:4 and 16:9]. <br>
 Thus making all alignment of elements painfull process. But overall this is solid template for grasping styling with css and flex technology.
 
 ## Lesson Learned:
