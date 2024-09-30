@@ -2,7 +2,7 @@
 
 It's just a simple project with cloning a website. Just a template of a website without a much functionality.
 
-**Original Website**:https://help.abstract.com/hc/en-us
+
 
 **Link to Project**: https://defalterxd.github.io/Abstract_clone/
 
@@ -20,3 +20,7 @@ The last part with the footer had exactly the same character as with the previou
 ## Lesson Learned:
 
 While working on this project I learned how to make a search bar and style it while adding the simple function like activating relative-link on search bar when you press enter. And inside the bar an icon of arrow.
+
+## Reference
+
+**Original Website**:https://help.abstract.com/hc/en-us
