@@ -1,6 +1,6 @@
 ## Abstract_clone
 
-It's just a simple project with a template website without a much functionality.
+A simple re-creation of the website template
 
 ![alt text](./img/Review.png)
 
